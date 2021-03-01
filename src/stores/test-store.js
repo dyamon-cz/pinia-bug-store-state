@@ -6,8 +6,10 @@ export const useMainStore = createStore({
   id: "main",
   // a function that returns a fresh state
   state: () => ({
-    counter: 0,
-    name: "Eduardo",
+    innerState: {
+      counter: 0,
+      name: "Eduardo",
+    },
   }),
   // optional getters
   getters: {
