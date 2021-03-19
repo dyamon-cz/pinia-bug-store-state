@@ -1,6 +1,6 @@
-import { createStore } from "pinia"; // btw can't find defineComponent method
+import { defineStore } from "pinia"; // btw can't find defineComponent method
 
-export const useMainStore = createStore({
+export const useMainStore = defineStore({
   // name of the store
   // it is used in devtools and allows restoring state
   id: "main",
